@@ -1,0 +1,153 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Users/admin/Documents/UNITY/2020.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/admin/AR-walk-Leicester
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57096
+Successfully changed project path to: /Users/admin/AR-walk-Leicester
+/Users/admin/AR-walk-Leicester
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 106.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path /Users/admin/Documents/UNITY/2020.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/admin/AR-walk-Leicester/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-20 16:16:03.635 Unity[7382:353573] Color LCD preferred device: Intel HD Graphics 4000 (low power)
+2021-06-20 16:16:03.635 Unity[7382:353573] Metal devices available: 1
+2021-06-20 16:16:03.635 Unity[7382:353573] 0: Intel HD Graphics 4000 (low power)
+2021-06-20 16:16:03.637 Unity[7382:353573] Using device Intel HD Graphics 4000 (low power)
+Initializing Metal device caps: Intel HD Graphics 4000
+Initialize mono
+Mono path[0] = '/Users/admin/Documents/UNITY/2020.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/admin/Documents/UNITY/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/admin/Documents/UNITY/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56382
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/admin/Documents/UNITY/2020.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000827 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 71.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.875 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at /Users/admin/AR-walk/Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+(Filename: /Users/admin/AR-walk/Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at /Users/admin/AR-walk/Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+(Filename: /Users/admin/AR-walk/Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at /Users/admin/AR-walk/Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+(Filename: /Users/admin/AR-walk/Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.682 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/admin/Documents/UNITY/2020.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.5 MB.
+System memory in use after: 153.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2241.
+Total: 3.171709 ms (FindLiveObjects: 0.266243 ms CreateObjectMapping: 0.075548 ms MarkObjects: 2.677782 ms  DeleteObjects: 0.150087 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Db.asset
+  artifactKey: Guid(53ddc2c9e5ea844aab95cf4d667eb51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Db.asset using Guid(53ddc2c9e5ea844aab95cf4d667eb51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35acfa67370d6a01fbf192c39f9eaf48') in 0.421617 seconds 
+  Import took 0.429415 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.4 MB.
+System memory in use after: 124.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2242.
+Total: 6.009637 ms (FindLiveObjects: 0.580659 ms CreateObjectMapping: 0.230370 ms MarkObjects: 5.077615 ms  DeleteObjects: 0.119019 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 259.096271 seconds.
+  path: Assets/Db.asset
+  artifactKey: Guid(53ddc2c9e5ea844aab95cf4d667eb51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Db.asset using Guid(53ddc2c9e5ea844aab95cf4d667eb51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df507e849a28599248fd8c22f8a543c') in 0.024021 seconds 
+  Import took 0.032462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.624980 seconds.
+  path: Assets/Db.asset
+  artifactKey: Guid(53ddc2c9e5ea844aab95cf4d667eb51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Db.asset using Guid(53ddc2c9e5ea844aab95cf4d667eb51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df507e849a28599248fd8c22f8a543c') in 0.003644 seconds 
+  Import took 0.011213 seconds .
+
